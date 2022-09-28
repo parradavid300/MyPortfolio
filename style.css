@@ -1,0 +1,191 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgb(219, 219, 214)
+
+}
+
+header {
+    background: rgb(63, 65, 76);
+    padding: 15px 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header div {
+    background-color: aqua;
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    /* padding: 75px;
+    display: inline; */
+    color: rgb(63, 65, 76);
+    font-size: 60px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    /* display: inline; */
+    font-size: 30px;
+}
+
+nav ul li {
+    background: rgb(63, 65, 76);
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    margin-right: 15px;
+    
+}
+
+nav a:link {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid transparent aqua;
+  }
+  
+nav a:visited {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid transparent aqua;
+  }
+  
+nav a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid transparent aqua;
+  }
+  
+nav a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid transparent blue;
+  }
+
+#headerimage {
+    height:204px;
+    object-fit:contain;
+    background: url("./images/pexels-david-bartus-963278\ \(1\).jpg") no-repeat;
+    background-size:cover;
+    filter: opacity(0.8) drop-shadow(0 0 0 rgb(30, 47, 104));
+      
+}
+
+.boxaboutme {
+    display: flex;
+}
+
+.headeraboutme {
+    color: rgb(75, 75, 124);
+    font-size: 60px;
+    text-align: right;
+    height: 200px;
+    padding-right: 10px;
+    margin: 75px 0px 0px 200px;
+    border-right: 5px solid rgb(75, 75, 124);
+      
+}
+
+section p {
+    text-align: justify;
+    margin: 100px 50px;
+}
+
+.boxwork {
+  display: flex;
+}
+
+.headerWork {
+    color: rgb(75, 75, 124);
+    font-size: 65px;
+    height: 250px;
+    margin: 10px 10px 50px 211px;
+    border-right: 5px solid;
+}
+
+.whiteboardjpg {
+    display:flex;
+    
+}
+
+.boxcontact {
+  display:flex;
+}
+
+
+.headerContact{
+    color: rgb(75, 75, 124);
+    font-size: 65px;
+    text-align: right;
+    height: 250px;
+    margin: 100px 0px 68px 123px;
+    border-right: 5px solid rgb(75, 75, 124);
+}
+
+ul {
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+
+}
+.contactLink {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 3px solid  aqua;
+    
+  }
+  
+.contactLink:visited {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 3px solid  aqua;
+    
+  }
+  
+.contactLink:hover {
+    color: rgb(16, 23, 172);
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid  aqua;
+    
+  }
+  
+.contactLink:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 3px solid  blue;
+    
+  }
+
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
